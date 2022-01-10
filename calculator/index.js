@@ -7,7 +7,7 @@ for(item of buttons)
     {
         buttonText=e.target.innerText;
         console.log("btn is ",buttonText)
-        if(buttonText=='X')
+        if(buttonText=='x')
         {
             buttonText='*';
             screenValue+=buttonText;
